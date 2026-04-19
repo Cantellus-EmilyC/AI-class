@@ -282,6 +282,627 @@
 </head>
 <body>
 
+<nav class="toc">
+  <a href="#before">Start here</a>
+  <a href="#flow">Agenda</a>
+  <a href="#tools">Landscape</a>
+  <a href="#exercise">Exercise</a>
+  <a href="#next">Resources</a>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">AI 101 Workshop</div>
+  <h1>Keeping Up with Claude</h1>
+  <p class="lede">Everything you need for (and after) today's workshop. A real mental model for AI, the tools worth knowing, and a living productivity dashboard you build with Claude in 15 minutes and keep forever.</p>
+  <div class="meta">
+    <span>📅 1 hour</span>
+    <span>💻 Laptop + free Claude or ChatGPT account</span>
+    <span>👥 Small group</span>
+    <span>🐣 Beginner-friendly</span>
+  </div>
+</header>
+
+<main>
+
+<section id="before">
+  <h2><span class="num">01</span>Let's get started</h2>
+  <p class="sub">Three quick things to knock out right now so we can get straight to the good stuff.</p>
+  <div class="card">
+    <h3>1 · Create a free account</h3>
+    <p>If you don't already have one, sign up for either:</p>
+    <ul>
+      <li><a href="https://claude.ai" target="_blank">claude.ai</a> (what I'll be demoing)</li>
+      <li><a href="https://chat.openai.com" target="_blank">chat.openai.com</a> (ChatGPT — works just as well for today)</li>
+    </ul>
+    <p>Email or Google sign-up. The free tier is all we need.</p>
+    <h3>2 · What you need today</h3>
+    <ul>
+      <li>Your laptop (charged)</li>
+      <li>This link: <em>[Emily will share in the room]</em></li>
+      <li>An internet connection</li>
+    </ul>
+    <h3>3 · Quickly, before we begin — jot down</h3>
+    <p>Grab paper, your phone, whatever's handy, and scribble out:</p>
+    <ul>
+      <li>3–5 projects you're actively working on (work, personal, family — anything)</li>
+      <li>5–10 things you're trying to get done this week</li>
+      <li>2–3 things you're waiting on from other people</li>
+      <li>One sentence about what matters most to you right now</li>
+    </ul>
+    <p>Rough is fine. Messy is fine. You'll turn this into your Personal Productivity Tracker during the exercise.</p>
+  </div>
+  <div class="callout">
+    <strong>No pro plan required.</strong> The free tier handles everything we're doing today.
+  </div>
+</section>
+
+<section id="flow">
+  <h2><span class="num">02</span>Today's Agenda</h2>
+  <p class="sub">Interrupt anytime — I'm yours for the hour. No dumb questions, no wrong reactions. Here's what we'll cover:</p>
+  <div class="timeline">
+    <div class="step">
+      <div class="title">Welcome</div>
+      <div class="desc">Why you're here. What you want to walk out knowing.</div>
+    </div>
+    <div class="step">
+      <div class="title">What is AI?</div>
+      <div class="desc">A plain-English mental model for how large language models actually work.</div>
+    </div>
+    <div class="step">
+      <div class="title">The AI landscape</div>
+      <div class="desc">Who the major players are, what each is known for, and what they can actually do.</div>
+    </div>
+    <div class="step">
+      <div class="title">How to spot use cases</div>
+      <div class="desc">A few simple questions to ask yourself to figure out where AI can save you time or brainpower.</div>
+    </div>
+    <div class="step">
+      <div class="title">Common concerns</div>
+      <div class="desc">Privacy, hallucinations, kids, and the stuff AI still can't do.</div>
+    </div>
+    <div class="step">
+      <div class="title">Hands-on activity</div>
+      <div class="desc">Build your own Personal Productivity Tracker with Claude.</div>
+    </div>
+  </div>
+</section>
+
+<section id="tools">
+  <h2><span class="num">03</span>The AI landscape</h2>
+  <ul>
+    <li><a href="https://www.theneuron.ai/top-tools/" target="_blank">The Neuron's Top AI Tools</a> — a constantly-updated, categorized directory of what's worth using right now.</li>
+    <li><a href="https://you.com/home" target="_blank">You.com</a> — a meta-search that lets you compare answers across multiple AI models side-by-side.</li>
+  </ul>
+
+  <h3>The World of AI Features</h3>
+  <p>The category "AI" is too broad. What matters is which <em>features</em> a tool supports, because that's how you match it to a use case.</p>
+  <div class="features">
+    <div class="feat"><span class="feat-name">Chat</span><span class="feat-desc">Back-and-forth conversation, brainstorming, explaining, summarizing.</span></div>
+    <div class="feat"><span class="feat-name">Coding</span><span class="feat-desc">Writing, debugging, and explaining code.</span></div>
+    <div class="feat"><span class="feat-name">Document iteration</span><span class="feat-desc">Drafting, editing, and revising long docs across multiple rounds.</span></div>
+    <div class="feat"><span class="feat-name">Data analysis</span><span class="feat-desc">Uploading spreadsheets/CSVs and asking questions of your data.</span></div>
+    <div class="feat"><span class="feat-name">Image gen &amp; editing</span><span class="feat-desc">Create images from text; edit or extend existing images.</span></div>
+    <div class="feat"><span class="feat-name">Workflow automation</span><span class="feat-desc">Triggers and actions that run without you ("when X, do Y").</span></div>
+    <div class="feat"><span class="feat-name">Tool use / API calls</span><span class="feat-desc">AI reaches out to other software on your behalf.</span></div>
+    <div class="feat"><span class="feat-name">Voice mode</span><span class="feat-desc">Speak to the AI, or have it read aloud to you.</span></div>
+    <div class="feat"><span class="feat-name">Transcription</span><span class="feat-desc">Convert audio or meetings into searchable text.</span></div>
+    <div class="feat"><span class="feat-name">Vibecoding</span><span class="feat-desc">Build working software from a plain-English description.</span></div>
+    <div class="feat"><span class="feat-name">Research + citations</span><span class="feat-desc">Answers grounded in sources you can click and verify.</span></div>
+    <div class="feat"><span class="feat-name">Deep reasoning</span><span class="feat-desc">Model takes longer and works harder on hard problems.</span></div>
+    <div class="feat"><span class="feat-name">Agents / computer use</span><span class="feat-desc">AI takes multi-step actions on its own.</span></div>
+  </div>
+
+  <h3>Questions to ask when vetting a new AI tool</h3>
+  <ul>
+    <li>What am I actually trying to do? (chat, create, analyze, automate, search…)</li>
+    <li>Which of the features above does it support — and which does it do <em>best</em>?</li>
+    <li>Where does my data live, and does this tool need access to it?</li>
+    <li>How private or sensitive is my input? What does the provider do with it?</li>
+    <li>Do I need sources I can verify, or is a confident answer enough?</li>
+    <li>Do I want it to <em>tell</em> me something, or <em>do</em> something for me?</li>
+    <li>How often will I use it — once, weekly, daily? (Daily-use tools are worth paying for; one-offs aren't.)</li>
+    <li>What's the free tier, and what unlocks with paid?</li>
+  </ul>
+
+  <h3>The main tools, by what they're best at</h3>
+  <div class="grid grid-2">
+    <div class="tool">
+      <div class="tag">Today's demo</div>
+      <h4>Claude · <a href="https://claude.ai" target="_blank">claude.ai</a></h4>
+      <p><strong>Best for:</strong> document iteration, vibecoding, thoughtful writing, long-context work, deep reasoning.</p>
+      <p><em>Artifacts</em> give you a live preview of HTML/code/docs beside the chat — which is why it's our pick for today's tracker build.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Most well-known</div>
+      <h4>ChatGPT · <a href="https://chat.openai.com" target="_blank">chat.openai.com</a></h4>
+      <p><strong>Best for:</strong> chat, voice mode, image generation (DALL·E), data analysis, agents (Operator on paid).</p>
+      <p>The broadest feature set in one place. Similar day-to-day feel to Claude; a bit more multimodal out of the box.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Built into Google</div>
+      <h4>Gemini · <a href="https://gemini.google.com" target="_blank">gemini.google.com</a></h4>
+      <p><strong>Best for:</strong> research with live search, anything touching Gmail / Docs / Calendar, image generation (Imagen), Android.</p>
+      <p>The default choice if your life already lives inside Google Workspace.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Built into Office</div>
+      <h4>Copilot · <a href="https://copilot.microsoft.com" target="_blank">copilot.microsoft.com</a></h4>
+      <p><strong>Best for:</strong> document iteration inside Word, data analysis inside Excel, email drafting in Outlook, meetings in Teams.</p>
+      <p>Lives inside the apps you're already in. The default choice if you're a Microsoft 365 shop.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Research</div>
+      <h4>Perplexity · <a href="https://www.perplexity.ai" target="_blank">perplexity.ai</a></h4>
+      <p><strong>Best for:</strong> research with citations, current events, fact-finding, shopping comparisons.</p>
+      <p>Every answer comes with linked sources. The go-to when you care more about <em>where the answer came from</em> than the prose.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Images &amp; video</div>
+      <h4>Midjourney, DALL·E, Sora, Runway</h4>
+      <p><strong>Best for:</strong> image generation &amp; editing, video generation, creative direction.</p>
+      <p>Different category from chat tools. Great for marketing, slides, social, creative projects.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Transcription</div>
+      <h4>Otter, Fathom, Granola, Fireflies</h4>
+      <p><strong>Best for:</strong> transcription, meeting notes, searchable recordings.</p>
+      <p>These plug into Zoom / Meet / Teams and turn your calls into text you can actually find later.</p>
+    </div>
+    <div class="tool">
+      <div class="tag">Automation</div>
+      <h4>Zapier, Make, n8n</h4>
+      <p><strong>Best for:</strong> workflow automation, tool use / API calls, agents.</p>
+      <p>These aren't chat tools — they're the wiring that connects AI to the rest of your software (email, calendar, CRM, Slack, etc.).</p>
+    </div>
+  </div>
+</section>
+
+<section id="exercise">
+  <h2><span class="num">04</span>Personal Productivity Tracker</h2>
+  <p class="sub">A single HTML file that tracks your tasks with real structure — task, description, due date, next step, status — all in one place, saved to your browser, editable inline.</p>
+
+  <h3>What you're building</h3>
+  <div class="dash-preview">
+    <h5>▾ Active projects</h5>
+    <div class="task">
+      <div class="task-row"><div class="box"></div><span class="task-name">Team offsite planning</span><span class="task-due">Due May 3</span><span class="task-status status-inprogress">In progress</span></div>
+      <div class="task-meta"><span><strong>Description:</strong> 2-day offsite for 12 people, need venue + agenda.</span><span><strong>Next step:</strong> Email Hilton for May 3 availability.</span></div>
+    </div>
+    <div class="task">
+      <div class="task-row"><div class="box"></div><span class="task-name">Home office reorg</span><span class="task-due">Due Apr 28</span><span class="task-status status-blocked">Blocked</span></div>
+      <div class="task-meta"><span><strong>Description:</strong> Build the new standing desk + shelf.</span><span><strong>Next step:</strong> Shelf arrives Thursday.</span></div>
+    </div>
+    <h5>▾ Today</h5>
+    <div class="task">
+      <div class="task-row"><div class="box done"></div><span class="task-name done-text">Review Marcus's proposal</span><span class="task-due">Today</span><span class="task-status status-done">Done</span></div>
+    </div>
+    <div class="task">
+      <div class="task-row"><div class="box"></div><span class="task-name">Draft offsite agenda v1</span><span class="task-due">Today</span><span class="task-status status-inprogress">In progress</span></div>
+      <div class="task-meta"><span><strong>Next step:</strong> Outline 4 blocks for day one.</span></div>
+    </div>
+    <h5>▾ Waiting on</h5>
+    <div class="task">
+      <div class="task-row"><div class="box"></div><span class="task-name">Legal review — vendor contract</span><span class="task-due">Asked Mon</span><span class="task-status status-waiting">Priya</span></div>
+    </div>
+  </div>
+
+  <h3>The columns</h3>
+  <ul>
+    <li><strong>Task</strong> — the thing to do.</li>
+    <li><strong>Description</strong> — one line of context so future-you remembers what this is.</li>
+    <li><strong>Due date</strong> — when it has to happen (or "someday" for backlog).</li>
+    <li><strong>Next step</strong> — the very next tiny action, so you never hit a wall.</li>
+    <li><strong>Status</strong> — Not started / In progress / Blocked / Waiting on / Done.</li>
+  </ul>
+
+  <h3>How to build it</h3>
+  <ol class="steps">
+    <li><strong>Open Claude (or ChatGPT).</strong> Paste the starter prompt below.</li>
+    <li><strong>Upload your existing to-dos</strong> — the napkin list you just jotted down, a screenshot of your email inbox, a meeting notes doc, a Word doc of goals, anything you've got. The LLM will auto-populate the tracker with real items from your life.</li>
+    <li><strong>Customize it.</strong> Tell the LLM: change the colors, add your name, rename sections, add a habit tracker at the bottom, whatever feels good.</li>
+    <li><strong>Ask for a downloadable HTML file.</strong> Say "give me the final file as a downloadable HTML I can save to my computer."</li>
+    <li><strong>Open it in your browser.</strong> Double-click the file. Your tracker is live. Bookmark it.</li>
+  </ol>
+
+  <h3>Starter prompt</h3>
+  <div class="copy-wrap">
+    <button class="copy-btn" data-copy="starter">Copy starter prompt</button>
+<pre id="starter">Build me a single-file HTML personal productivity tracker. It should be a living document I can keep open in a browser tab and actually use every day.
+
+Each task has five columns:
+- Task (short name)
+- Description (one line of context)
+- Due date
+- Next step (the very next tiny action)
+- Status (Not Started / In Progress / Blocked / Waiting On / Done)
+
+Group tasks into collapsible sections:
+1. Active projects
+2. This week
+3. Today
+4. Waiting on
+5. Backlog / Someday
+
+Requirements:
+- All data autosaves to localStorage so it persists when I close the tab.
+- Everything is inline-editable: click any field to edit it.
+- Each section has a "+ add task" button; each task has a delete (×) button on hover.
+- Status is a dropdown with color-coded pills.
+- Overdue due dates show in red; due today shows in the accent color.
+- At the top: today's date, an "X of Y done today" stat, and a progress bar.
+- Sections are collapsible; remember collapsed state.
+- Buttons for Export JSON, Import JSON, and Reset (with confirm).
+
+Design:
+- Warm, calm palette. Cream background, deep ink text, one rust/terracotta accent.
+- Rounded corners, generous whitespace, system font stack.
+- Feels like a Moleskine, not a spreadsheet.
+
+No dependencies. All inline CSS and JS. Make this something I'd want to keep open all the time.
+
+I'll paste or upload my existing to-dos, emails, or notes below — please pre-populate the tracker with real items from those. Ask me for anything you need.</pre>
+  </div>
+
+  <div class="callout warn">
+    <strong>Heads up.</strong> Inside Claude's Artifact preview, the "save to browser" part may not work fully — that's a preview-sandbox quirk. The tracker becomes fully functional once you download the HTML file and open it from your computer.
+  </div>
+
+  <h3>Want to take it further? Pro-version ideas</h3>
+  <p>These are things you can't build in the 15 minutes we have today, but they're all doable with a little setup:</p>
+  <div class="grid grid-2">
+    <div class="card">
+      <h4>Desktop file sync</h4>
+      <p>Save the tracker to a folder that syncs (iCloud, Dropbox, OneDrive). Open it from any device — same data everywhere. Pair with something like <a href="https://obsidian.md" target="_blank">Obsidian</a> if you want the same idea in markdown.</p>
+    </div>
+    <div class="card">
+      <h4>Weekly trigger email</h4>
+      <p>Use <a href="https://zapier.com" target="_blank">Zapier</a> or <a href="https://make.com" target="_blank">Make</a> to email you every Sunday with a prompt: "paste your tracker state here, I'll do a weekly review." Your inbox becomes the ritual.</p>
+    </div>
+    <div class="card">
+      <h4>Calendar events</h4>
+      <p>Ask the LLM to add a "Send to calendar" button that generates a <code>.ics</code> file from any task with a due date. One click → the task lives on your Google/Outlook calendar.</p>
+    </div>
+    <div class="card">
+      <h4>Ask Claude button</h4>
+      <p>Add a button that copies your current state to the clipboard and opens claude.ai. Paste, ask for prioritization, a weekly review, or a "what am I avoiding?" nudge.</p>
+    </div>
+  </div>
+</section>
+
+<section id="next">
+  <h2><span class="num">05</span>Resources to Keep Learning</h2>
+  <p class="sub">Ten minutes a day for two weeks will get you further than any workshop. Here's where to point those ten minutes.</p>
+
+  <div class="card">
+    <h3>Let LLMs teach you about AI</h3>
+    <p>Honestly — the best way to learn AI is by using AI. Whenever a term, tool, or news headline goes over your head, paste it into Claude or ChatGPT and ask:</p>
+    <ul>
+      <li>"Explain this to me like I'm smart but not technical."</li>
+      <li>"What's the context I'm missing here?"</li>
+      <li>"What's the five-year-old version, then the college version?"</li>
+      <li>"Why does this matter to me as a [parent / marketer / lawyer / whatever]?"</li>
+    </ul>
+    <p>You can't break it, you can't run out of questions, and it's infinitely patient. Use that.</p>
+  </div>
+
+  <div class="card">
+    <h3>A 12-day primer: AI Daily Brief — New Year's project</h3>
+    <p>Nathaniel Whittemore's <strong>New Year's Project</strong> is a short, structured series from the AI Daily Brief podcast that walks through the state of AI one theme at a time — agents, enterprise, culture, regulation, jobs, and more.</p>
+    <p><a href="https://aidbnewyear.com" target="_blank">aidbnewyear.com</a> — start at episode 1 and work through.</p>
+  </div>
+
+  <div class="card">
+    <h3>Podcasts worth subscribing to</h3>
+    <ul>
+      <li><a href="https://aidailybrief.ai" target="_blank">AI Daily Brief</a> — Nathaniel Whittemore. ~15 min/day covering AI news and analysis.</li>
+      <li><a href="https://www.theneuron.ai/podcasts/" target="_blank">The Neuron: AI Explained</a> — plain-English breakdowns of the week's AI news.</li>
+      <li><a href="https://www.nytimes.com/column/hard-fork" target="_blank">Hard Fork</a> — NYT's Kevin Roose &amp; Platformer's Casey Newton. Weekly tech news with a big focus on AI, told as a conversation.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Newsletters worth reading</h3>
+    <ul>
+      <li><a href="https://www.oneusefulthing.org" target="_blank">One Useful Thing</a> — Ethan Mollick (Wharton professor). Practical, research-backed writing on how AI actually works in real life — classrooms, offices, creative work. Written for normal humans, not engineers.</li>
+    </ul>
+  </div>
+
+  <div class="callout">
+    <strong>Stuck later?</strong> Email me. Screenshots welcome. I'd rather you ask a "silly" question than never try again.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p class="sig">Built for the workshop — and yes, Claude helped make this page too.</p>
+  <p>Keeping Up with Claude · AI 101 Workshop</p>
+</footer>
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('.card');
+      parent.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      parent.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      parent.querySelector('#' + btn.dataset.tab).classList.add('active');
+    });
+  });
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const target = document.getElementById(btn.dataset.copy);
+      if (!target) return;
+      try {
+        await navigator.clipboard.writeText(target.innerText);
+        btn.classList.add('copied');
+        const original = btn.textContent;
+        btn.textContent = 'Copied ✓';
+        setTimeout(() => { btn.classList.remove('copied'); btn.textContent = original; }, 1600);
+      } catch (e) {
+        alert('Copy failed — select the text manually.');
+      }
+    });
+  });
+  document.querySelectorAll('nav.toc a').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href');
+      if (id.startsWith('#')) {
+        e.preventDefault();
+        document.querySelector(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+</body>
+</html>  header .eyebrow{
+    display:inline-block;
+    font-size:13px;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    color:var(--accent);
+    background:var(--accent-soft);
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  header h1{
+    font-size: clamp(36px, 5.5vw, 64px);
+    margin:0 0 14px;
+    letter-spacing:-0.02em;
+    line-height:1.05;
+  }
+  header p.lede{
+    font-size: clamp(17px, 2.2vw, 20px);
+    color:var(--muted);
+    max-width: 640px;
+    margin: 0 auto 26px;
+  }
+  header .meta{
+    display:inline-flex;gap:18px;flex-wrap:wrap;justify-content:center;
+    color:var(--muted);font-size:14px;
+  }
+  nav.toc{
+    position:sticky;top:0;
+    background: rgba(250,247,242,.92);
+    backdrop-filter: blur(8px);
+    border-bottom:1px solid var(--border);
+    padding: 12px 16px;
+    display:flex;gap:18px;flex-wrap:wrap;justify-content:center;
+    font-size:14px;font-weight:500;z-index:10;
+  }
+  nav.toc a{border-bottom:none;color:var(--muted)}
+  nav.toc a:hover{color:var(--accent)}
+  main{max-width: 860px;margin:0 auto;padding: 48px 24px 96px}
+  section{margin:56px 0}
+  section h2{
+    font-size: clamp(26px, 3.5vw, 34px);
+    letter-spacing:-0.015em;
+    margin:0 0 8px;
+  }
+  section h2 .num{color:var(--accent);font-weight:700;margin-right:10px}
+  section .sub{color:var(--muted);margin:0 0 22px;font-size:16px}
+  h3{margin: 28px 0 8px;font-size:18px}
+  h4{margin: 20px 0 6px;font-size:15px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+  p{margin:12px 0}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:6px 0}
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:22px 24px;
+    margin:16px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.02);
+  }
+  .grid{display:grid;gap:14px}
+  .grid-2{grid-template-columns: repeat(auto-fit,minmax(260px,1fr))}
+  .grid-3{grid-template-columns: repeat(auto-fit,minmax(200px,1fr))}
+  .tool{
+    border:1px solid var(--border);background:var(--card);
+    border-radius:12px;padding:16px 18px;
+  }
+  .tool h4{margin:0 0 4px;font-size:16px;color:var(--ink);text-transform:none;letter-spacing:normal}
+  .tool .tag{
+    display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent);background:var(--accent-soft);
+    padding:2px 8px;border-radius:999px;margin-bottom:6px;font-weight:600;
+  }
+  .tool p{margin:4px 0;color:var(--muted);font-size:14px}
+  pre, code{font-family: "SF Mono",Menlo,Consolas,monospace}
+  pre{
+    background:var(--code-bg);
+    color:var(--code);
+    padding:18px 20px;
+    border-radius:10px;
+    overflow-x:auto;
+    font-size:13px;
+    line-height:1.65;
+    border:1px solid var(--border);
+    white-space:pre-wrap;
+  }
+  .copy-wrap{position:relative}
+  .copy-btn{
+    position:absolute;top:10px;right:10px;
+    background:#fff;border:1px solid var(--border);
+    border-radius:8px;padding:5px 12px;font-size:12px;
+    cursor:pointer;color:var(--ink);
+    transition: all .15s;font-family:inherit;font-weight:500;
+  }
+  .copy-btn:hover{background:var(--accent-soft);border-color:var(--accent)}
+  .copy-btn.copied{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .callout{
+    background:var(--accent-soft);
+    border-left:4px solid var(--accent);
+    padding:14px 18px;border-radius: 0 10px 10px 0;
+    margin:20px 0;
+  }
+  .callout strong{color:var(--accent)}
+  .callout.warn{
+    background:#fdf3e7;border-left-color:#d18932;
+  }
+  .callout.warn strong{color:#b96a10}
+  .timeline{border-left:2px solid var(--border);padding-left:20px;margin:20px 0}
+  .timeline .step{margin-bottom:18px;position:relative}
+  .timeline .step::before{
+    content:"";position:absolute;left:-26px;top:8px;
+    width:10px;height:10px;border-radius:50%;
+    background:var(--accent);border:2px solid var(--bg);
+  }
+  .timeline .time{font-weight:600;color:var(--accent);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .timeline .title{font-weight:600;font-size:16px;margin:2px 0}
+  .timeline .desc{color:var(--muted);font-size:14px}
+  details{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 18px;
+    margin:10px 0;
+  }
+  details[open]{background:#fffaf4}
+  summary{cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"＋";color:var(--accent);margin-right:10px;font-weight:700}
+  details[open] summary::before{content:"−"}
+  footer{
+    text-align:center;padding:40px 24px 60px;color:var(--muted);
+    font-size:14px;border-top:1px solid var(--border);margin-top:40px;
+  }
+  footer .sig{font-family:Georgia,serif;font-style:italic;color:var(--ink)}
+  .tabs{display:flex;gap:6px;border-bottom:1px solid var(--border);margin-bottom:0;flex-wrap:wrap}
+  .tabs button{
+    background:none;border:none;padding:10px 14px;
+    cursor:pointer;font-size:14px;color:var(--muted);
+    border-bottom:2px solid transparent;margin-bottom:-1px;
+    font-family:inherit;font-weight:500;
+  }
+  .tabs button.active{color:var(--accent);border-bottom-color:var(--accent)}
+  .tab-panel{display:none;padding-top:16px}
+  .tab-panel.active{display:block}
+  .step-num{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:28px;height:28px;border-radius:50%;
+    background:var(--accent);color:#fff;font-weight:700;font-size:14px;
+    margin-right:10px;vertical-align:middle;
+  }
+  .dash-preview{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:18px 20px;margin:16px 0;
+    font-family:inherit;font-size:13px;
+  }
+  .dash-preview h5{
+    margin:10px 0 6px;font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--muted);font-weight:600;
+  }
+  .features{
+    display:grid;gap:10px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin:14px 0 8px;
+  }
+  .feat{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-left:3px solid var(--accent);
+    border-radius:10px;
+    padding:10px 12px;
+    display:flex;flex-direction:column;gap:2px;
+  }
+  .feat-name{
+    font-weight:600;font-size:14px;color:var(--ink);
+  }
+  .feat-desc{
+    font-size:13px;color:var(--muted);line-height:1.4;
+  }
+  .dash-preview .item{
+    padding:4px 0;border-bottom:1px dashed var(--border);
+    display:flex;align-items:center;gap:8px;
+  }
+  .dash-preview .item:last-child{border:none}
+  .dash-preview .box{
+    width:14px;height:14px;border:1.5px solid var(--muted);border-radius:3px;flex-shrink:0;
+  }
+  .dash-preview .box.done{background:var(--accent);border-color:var(--accent);position:relative}
+  .dash-preview .box.done::after{
+    content:"✓";color:#fff;position:absolute;top:-3px;left:1px;font-size:12px;font-weight:700;
+  }
+  .dash-preview .done-text{text-decoration:line-through;color:var(--muted)}
+  .task{
+    padding:10px 0;border-bottom:1px dashed var(--border);
+  }
+  .task:last-child{border-bottom:none}
+  .task-row{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .task-row .box{
+    width:14px;height:14px;border:1.5px solid var(--muted);border-radius:3px;flex-shrink:0;
+  }
+  .task-row .box.done{background:var(--accent);border-color:var(--accent);position:relative}
+  .task-row .box.done::after{
+    content:"✓";color:#fff;position:absolute;top:-3px;left:1px;font-size:12px;font-weight:700;
+  }
+  .task-name{flex:1;min-width:140px;font-weight:500}
+  .task-due{
+    font-size:12px;color:var(--muted);
+    padding:2px 8px;border:1px solid var(--border);border-radius:999px;
+  }
+  .task-status{
+    font-size:12px;font-weight:600;letter-spacing:.03em;
+    padding:2px 10px;border-radius:999px;
+  }
+  .status-done{background:#e6f0e0;color:#3d6b2d}
+  .status-inprogress{background:var(--accent-soft);color:var(--accent)}
+  .status-blocked{background:#f1d4d4;color:#8a3030}
+  .status-waiting{background:#e2e8f0;color:#475569}
+  .task-meta{
+    font-size:13px;color:var(--muted);line-height:1.5;
+    padding-left:24px;margin-top:4px;
+    display:flex;flex-direction:column;gap:2px;
+  }
+  ol.steps{counter-reset:step;list-style:none;padding-left:0;margin:14px 0}
+  ol.steps li{
+    counter-increment:step;
+    padding:10px 14px 10px 44px;
+    margin:8px 0;position:relative;
+    background:var(--card);border:1px solid var(--border);border-radius:10px;
+  }
+  ol.steps li::before{
+    content:counter(step);
+    position:absolute;left:12px;top:10px;
+    width:22px;height:22px;border-radius:50%;
+    background:var(--accent);color:#fff;
+    font-size:12px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  @media (max-width:640px){
+    header.hero{padding: 56px 20px 40px}
+    main{padding: 32px 20px 64px}
+    section{margin:40px 0}
+  }
+</style>
+</head>
+<body>
+
 <header class="hero">
   <div class="eyebrow">AI 101 Workshop</div>
   <h1>Keeping Up with Claude</h1>
